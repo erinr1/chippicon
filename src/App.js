@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import NavBar from "./NavBar";
-import background from "./img/background.png";
 import chippi1 from "./img/chippi1.png";
 import chippi2 from "./img/chippi2.png";
 import austin from "./img/austin.png";

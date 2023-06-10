@@ -1,12 +1,13 @@
 import React from "react";
 import chippiIcon from "./img/chippi.png";
 import "./App.css";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <nav class="navbar navbar-expand-md bg-body-tertiary ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
       <div class="container-fluid">
-        <a class="navbar-brand navbar-links" href="#">
+        <a class="navbar-brand navbar-links" href="/#">
           <img src={chippiIcon} alt="chippi icon" width={40} class="me-2" />
           ChippiCon 2023
         </a>
@@ -24,21 +25,34 @@ export default function NavBar() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="/#">
+                <Link to="/">
+                  <span className="navbar-links">Home</span>
+                </Link>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="/#">
+                {" "}
+                <Link to="/useful">
+                  <span className="navbar-links">Useful Details</span>
+                </Link>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="/#">
+                <Link to="/useless">
+                  <span className="navbar-links">Useless Details</span>
+                </Link>
+              </a>
+            </li>
+            <li class="nav-item">
               <a
-                class="nav-link active navbar-links"
-                aria-current="page"
-                href="#"
+                class="nav-link navbar-links"
+                href="https://opensea.io/collection/chippi"
               >
-                Home
+                The OpenSea
               </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navbar-links" href="#">
-                Useful Details
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link navbar-links">The OpenSea</a>
             </li>
           </ul>
         </div>

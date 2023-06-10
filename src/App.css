@@ -1,10 +1,14 @@
-.App {
+.App,
+.Useful,
+.Useless {
   font-family: "Comic Neue", cursive;
   font-weight: bold;
 }
 
 .navbar-links {
-  margin-right: 60px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
 }
 .navbar-links:hover {
   color: red !important;
