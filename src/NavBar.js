@@ -7,7 +7,7 @@ export default function NavBar() {
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary ">
       <div class="container-fluid">
-        <a class="navbar-brand navbar-links" href="/#">
+        <a class="navbar-brand navbar-links me-5" href="/#">
           <img src={chippiIcon} alt="chippi icon" width={40} class="me-2" />
           ChippiCon 2023
         </a>
@@ -24,13 +24,6 @@ export default function NavBar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="/#">
-                <Link to="/">
-                  <span className="navbar-links">Home</span>
-                </Link>
-              </a>
-            </li>
             <li class="nav-item">
               <a class="nav-link " href="/#">
                 {" "}
