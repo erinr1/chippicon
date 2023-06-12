@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 export default function UsefulDetails() {
   return (
@@ -42,6 +43,7 @@ export default function UsefulDetails() {
         </p>{" "}
         <p>10. It's impossible to hum while holding your nose.👃🏽</p>
       </div>
+      <Footer />
     </div>
   );
 }

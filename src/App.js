@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 import chippi1 from "./img/chippi1.png";
 import chippi2 from "./img/chippi2.png";
 import austin from "./img/austin.png";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <img src={austin} className="austin" alt="texas" />
         <img src={chippi2} alt="chippi crowd" className="background-right" />
       </div>
+      <Footer />
     </div>
   );
 }
