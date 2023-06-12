@@ -10,6 +10,9 @@ a:link {
   text-decoration: none !important;
 }
 
+.navbar {
+  background-color: #f4f7fa !important;
+}
 .navbar-links {
   color: black !important;
 }
@@ -61,8 +64,11 @@ a:link {
 }
 
 .email-footer {
+  margin: 0 auto;
   text-align: center;
   font-size: 18px;
-  background-color: #f8f9fa;
-  padding: 20px;
+  background-color: #f4f7fa;
+  padding: 30px;
+  max-width: 75%;
+  border-radius: 10px;
 }
