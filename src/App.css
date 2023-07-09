@@ -1,6 +1,7 @@
 .App,
 .Useful,
-.Useless {
+.Useless,
+.Secret {
   font-family: "Comic Neue", cursive;
   font-weight: bold;
 }
@@ -18,6 +19,13 @@ a:link {
 }
 .navbar-links:hover {
   color: #bf0a2f !important;
+}
+
+.navbar-links-secret {
+  color: #f4f7fa !important;
+}
+.navbar-links-secret:hover {
+  cursor: help !important;
 }
 
 .background {

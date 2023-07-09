@@ -55,6 +55,13 @@ export default function NavBar() {
                 The OpenSea
               </a>
             </li>
+            <li class="d-none nav-item">
+              <a class="nav-link " href="/#">
+                <Link to="/secret">
+                  <span className=" navbar-links-secret">Top Secret Lair</span>
+                </Link>
+              </a>
+            </li>
           </ul>
         </div>
       </div>

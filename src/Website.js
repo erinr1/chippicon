@@ -3,6 +3,7 @@ import App from "./App";
 import { Routes, Route } from "react-router-dom";
 import Useful from "./Useful";
 import Useless from "./Useless";
+import SecretLair from "./SecretLair";
 
 export default function Website() {
   return (
@@ -11,6 +12,7 @@ export default function Website() {
         <Route path="/" element={<App />} />
         <Route path="/useful" element={<Useful />} />
         <Route path="/useless" element={<Useless />} />
+        <Route path="/secret" element={<SecretLair />} />
       </Routes>
     </div>
   );
