@@ -42,6 +42,14 @@ export default function NavBar() {
             <li class="nav-item">
               <a
                 class="nav-link navbar-links"
+                href="https://linktr.ee/chippinft"
+              >
+                Chippi LinkTree
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link navbar-links"
                 href="https://opensea.io/collection/chippi"
               >
                 The OpenSea
