@@ -11,11 +11,11 @@ export default function UsefulDetails() {
     <div className="Useful">
       <NavBar />
       <div className="details-div">
-        <img src={details} alt="party details" className="raffle-image" />
+        <img src={details} alt="party details" className="details-image" />
         <img
           src={raffle}
           alt="raffle information"
-          className="details-image mt-5"
+          className="raffle-image mt-5"
         />
         <ul className="faq-list mt-3">
           <span class="faq">FAQ</span>
