@@ -63,7 +63,26 @@ a:link {
 }
 .details-image {
   max-height: auto;
-  max-width: 100%;
+  max-width: 90%;
+}
+
+.details-image {
+  max-height: auto;
+  max-width: 75%;
+}
+
+.faq-list {
+  text-align: left;
+  font-size: 18px;
+}
+
+.faq {
+  font-size: 24px;
+}
+li {
+  font-weight: bold;
+  font-size: 20px;
+  color: #bf0a2f;
 }
 
 .useless-info {
