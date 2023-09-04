@@ -24,8 +24,10 @@ export default function UsefulDetails() {
           <li>Do I need to RSVP to attend Chippicon 2023?</li> No RSVP is
           required. Chippicon 2023 is an open event.
           <li>What should I bring to to the event?</li> Wear your Chippi costume
-          (not required but STRONGLY encouraged) and cash for the Chippicon 2023
-          raffle and food/drink.
+          (not required but STRONGLY encouraged) and cash for food/drink.
+          <li>How can I participate in the raffle?</li> Payment options for the
+          Chippicon 2023 raffle include cryptocurrency (ETH on Optimism) or
+          Venmo.
           <li>Can I bring my non-Chippi holder friends?</li> Yes! All are
           welcome who may be interested in joining or hanging with the Chippi
           community.
