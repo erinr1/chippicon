@@ -10,6 +10,12 @@ export default function UsefulDetails() {
   return (
     <div className="Useful">
       <NavBar />
+      <div className="next-year">
+        Stay tuned for ChippiCon 2024 - Location TBD
+      </div>
+
+      <Footer />
+
       <div className="details-div">
         <img src={details} alt="party details" className="details-image" />
         <img
@@ -33,8 +39,6 @@ export default function UsefulDetails() {
           community.
         </ul>
       </div>
-
-      <Footer />
     </div>
   );
 }

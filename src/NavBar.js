@@ -9,7 +9,7 @@ export default function NavBar() {
       <div class="container-fluid">
         <a class="navbar-brand navbar-links me-5" href="/#">
           <img src={chippiIcon} alt="chippi icon" width={40} class="me-2" />
-          ChippiCon 2023
+          ChippiCon
         </a>
         <button
           class="navbar-toggler"

@@ -47,6 +47,16 @@ a:link {
 .austin {
   height: auto;
   width: 36%;
+  border-radius: 10px;
+}
+
+.next-year {
+  text-align: center;
+  font-size: 24px;
+  border: 1px solid #f4f7fa;
+  max-width: 75%;
+  border-radius: 10px;
+  margin: 0 auto;
 }
 
 .email-entry {
