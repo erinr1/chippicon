@@ -41,6 +41,14 @@ export default function NavBar() {
               </a>
             </li>
             <li class="nav-item">
+              <a
+                class="nav-link navbar-links"
+                href="https://www.amazon.com/dp/B0DRZHHM3X/ref=sr_1_1?crid=JGJJ8AGYQUL6&dib=eyJ2IjoiMSJ9.u4Q1DIFW_Ezww2MSsYlHlVnBemoS3Nmvm7jeovBClR7eLrXk4sw8Wh-z2EKtzXa8jNF1FXAS-adgp1aZuCyzlSI_C_jj7MjE3C1xZp1d1NY.WUvuxMrC77B9pLWPrDvBThlGxpJaH_Xqz6bAJvwVPzY&dib_tag=se&keywords=what+is+chippi&qid=1735788078&sprefix=what+is+chippi%2Caps%2C122&sr=8-1"
+              >
+                What Is Chippi? Book
+              </a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link " href="/#">
                 {" "}
                 <Link to="/useful">
@@ -48,6 +56,7 @@ export default function NavBar() {
                 </Link>
               </a>
             </li>
+
             <li class="nav-item">
               <a class="nav-link " href="/#">
                 <Link to="/useless">
