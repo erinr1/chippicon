@@ -6,16 +6,19 @@
   font-weight: bold;
 }
 
+.App {
+  background-color: #192f5e;
+}
 a:link {
   margin-right: 20px;
   text-decoration: none !important;
 }
 
 .navbar {
-  background-color: #f4f7fa !important;
+  background-color: #192f5e !important;
 }
 .navbar-links {
-  color: black !important;
+  color: white !important;
 }
 .navbar-links:hover {
   color: #bf0a2f !important;
@@ -44,10 +47,10 @@ a:link {
   width: 32%;
 }
 
-.austin {
+.chippi-2025 {
   height: auto;
-  width: 36%;
-  border-radius: 10px;
+  width: 70%;
+  align-items: center;
 }
 
 .next-year {
@@ -106,6 +109,4 @@ li {
   font-size: 18px;
   background-color: #f4f7fa;
   padding: 30px;
-  max-width: 75%;
-  border-radius: 10px;
 }

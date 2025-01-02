@@ -25,21 +25,6 @@ export default function NavBar() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link " href="/#">
-                {" "}
-                <Link to="/useful">
-                  <span className="navbar-links">Useful Details</span>
-                </Link>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="/#">
-                <Link to="/useless">
-                  <span className="navbar-links">Useless Details</span>
-                </Link>
-              </a>
-            </li>
-            <li class="nav-item">
               <a
                 class="nav-link navbar-links"
                 href="https://linktr.ee/chippinft"
@@ -55,6 +40,22 @@ export default function NavBar() {
                 The OpenSea
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link " href="/#">
+                {" "}
+                <Link to="/useful">
+                  <span className="navbar-links d-none">Useful Details</span>
+                </Link>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="/#">
+                <Link to="/useless">
+                  <span className="navbar-links d-none">Useless Details</span>
+                </Link>
+              </a>
+            </li>
+
             <li class="d-none nav-item">
               <a class="nav-link " href="/#">
                 <Link to="/secret">
