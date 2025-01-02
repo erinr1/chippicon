@@ -21,7 +21,7 @@ a:link {
   color: white !important;
 }
 .navbar-links:hover {
-  color: #bf0a2f !important;
+  color: #bc3e44 !important;
 }
 
 .navbar-links-secret {
@@ -47,10 +47,15 @@ a:link {
   width: 32%;
 }
 
+.homepage-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .chippi-2025 {
   height: auto;
-  width: 70%;
-  align-items: center;
+  width: 75%;
 }
 
 .next-year {
@@ -107,6 +112,6 @@ li {
   margin: 0 auto;
   text-align: center;
   font-size: 18px;
-  background-color: #f4f7fa;
+  background-color: white;
   padding: 30px;
 }

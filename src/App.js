@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App ">
       <NavBar />
-      <div className="">
+      <div className="homepage-div">
         <img
           src={chippi1}
           alt="chippi crowd"
