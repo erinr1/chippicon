@@ -79,14 +79,13 @@ a:link {
 .details-div {
   text-align: center;
 }
-.details-image {
+.whiskey-bar {
   max-height: auto;
-  max-width: 90%;
+  max-width: 100%;
 }
 
-.raffle-image {
-  max-height: auto;
-  max-width: 75%;
+.location-info {
+  list-style-type: none;
 }
 
 .faq-list {
