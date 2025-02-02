@@ -62,14 +62,6 @@ export default function NavBar() {
                 What Is Chippi? Book
               </a>
             </li>
-
-            <li class="nav-item">
-              <a class="nav-link " href="/#">
-                <Link to="/useless">
-                  <span className="navbar-links d-none">Useless Details</span>
-                </Link>
-              </a>
-            </li>
           </ul>
         </div>
       </div>
