@@ -10,15 +10,16 @@ export default function UsefulDetails() {
       <NavBar />
       <div class="container text-center"></div>
       <div class="row justify-content-center">
-        <div class="col-6">
+        <div class="col-6 mt-2">
           <img src={whiskeybar} alt="chippi crowd" className="whiskey-bar" />
 
-          <ul className="location-info text-center">
-            <li>2203 Larimer Street, Denver, CO</li>
-            <li>Wednesday, Feb. 26, 2025 6-10 pm</li>
-          </ul>
+          <div className="location-info text-center ">
+            <span>Location: 2203 Larimer Street, Denver, CO</span>
+            <br />
+            <span>Date/Time: Wednesday, Feb. 26, 2025 6-10pm</span>
+          </div>
         </div>
-        <div class="col-6">
+        <div class="col-6 mt-2">
           <ul className="info-list">
             <li>🆓 Free Admission!</li>
             <li>
@@ -27,19 +28,19 @@ export default function UsefulDetails() {
             </li>
             <li>🎟️ Raffle for prizes!</li>
             <ul>
-              <li>$10 per ticket, or 5 for $40</li>
+              <li>$10 per ticket, or 5 for $40.</li>
               <li>
                 Pay with cash or crypto (Optimism, Arbitrum, Gnosis, Ethereum,
                 Polygon).
               </li>
-              <li>All proceeds go to 🏴 Black Flag DAO + Chippicon 3</li>
+              <li>All proceeds go to 🏴 Black Flag DAO & Chippicon 3.</li>
             </ul>
 
             <li>
               📚 Grab a copy of What is Chippi? for $20 and get it 🖊️ signed by
               the illustrator!
             </li>
-            <li>🖼️ Collect exclusive Chippi POAPs & stickers</li>
+            <li>🖼️ Collect exclusive Chippi POAPs & stickers.</li>
             <li>🎲 Play Chippi Bingo for a shot at some epic prizes!</li>
           </ul>
         </div>

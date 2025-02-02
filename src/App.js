@@ -3,7 +3,7 @@ import "./App.css";
 import NavBar from "./NavBar";
 import chippi1 from "./img/chippi1.png";
 import chippi2 from "./img/chippi2.png";
-import chippicon2025 from "./img/chippicon2025.jpeg";
+import chippicon2025 from "./img/chippicon2025.jpg";
 
 import Footer from "./Footer";
 
